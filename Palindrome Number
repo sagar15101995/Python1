@@ -1,0 +1,10 @@
+n=int(input("ENter a Number"))
+i=n
+sum=0
+while(n>0):
+    sum=sum*10+(n%10)
+    n=n//10
+if sum==i:
+    print("Palindrome Number")
+else:
+    print("Not Palindrome Number")
