@@ -1,4 +1,5 @@
 a=input("Enter first name")
 b=input("ENter second name")
 fullname=a+b
-print("FUllname+",fullname)
+print("fullname",fullname)
+print(len(a+b))
